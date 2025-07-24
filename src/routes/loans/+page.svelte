@@ -1,10 +1,5 @@
 <script lang="ts">
-	import EllipsisIcon from '@lucide/svelte/icons/ellipsis';
 	import * as Card from '$lib/components/ui/card/index.js';
-	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
-    import { Button } from "$lib/components/ui/button/index.js";
-
-    import TrendingUpIcon from '@lucide/svelte/icons/trending-up';
 	import * as Chart from '$lib/components/ui/chart/index.js';
 	import { PieChart } from 'layerchart';
 
@@ -95,3 +90,5 @@
 		</Card.Root>
     </div>
 </div>
+
+<!--Add pay button to each loan card-->

@@ -106,3 +106,5 @@
 <footer class="flex flex-col items-center justify-center p-5">
 	<p>© 2025 MyBank Sdn Bhd. All Rights Reserved.</p>
 </footer>
+
+<!--Add toggle for dark mode-->
