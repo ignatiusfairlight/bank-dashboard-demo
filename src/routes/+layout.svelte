@@ -19,7 +19,7 @@
 		});
 	});
 
-	const isDesktop = new MediaQuery('(min-width: 768px)');
+	const isDesktop = new MediaQuery('(min-width: 1024px)');
 
 	let { children } = $props();
 </script>
@@ -58,6 +58,14 @@
 						{/snippet}
 					</NavigationMenu.Link>
 				</NavigationMenu.Item>
+				<NavigationMenu.Item>
+					<NavigationMenu.Link>
+						{#snippet child()}
+							<!-- svelte-ignore a11y_invalid_attribute -->
+							<a href="#" class={navigationMenuTriggerStyle()}>Settings</a>
+						{/snippet}
+					</NavigationMenu.Link>
+				</NavigationMenu.Item>
 			</NavigationMenu.List>
 		</NavigationMenu.Root>
 	</div>
@@ -80,6 +88,10 @@
 				</Drawer.Close>
 				<Drawer.Close>
 					<a href="wealth" class={navigationMenuTriggerStyle()}>Wealth</a>
+				</Drawer.Close>
+				<Drawer.Close>
+					<!-- svelte-ignore a11y_invalid_attribute -->
+					<a href="#" class={navigationMenuTriggerStyle()}>Settings</a>
 				</Drawer.Close>
 			</Drawer.Content>
 		</Drawer.Root>
