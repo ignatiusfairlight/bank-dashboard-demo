@@ -24,7 +24,7 @@
 </script>
 
 {#if isDesktop.current}
-	<div class="mt-5 mr-10 flex gap-45 items-center justify-center">
+	<div class="mx-5 mt-5 flex gap-45 items-center justify-center">
 		<!--Add fake bank logo here-->
 		<p>MyBank</p>
 		<NavigationMenu.Root>

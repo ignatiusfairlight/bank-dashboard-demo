@@ -4,6 +4,7 @@
     import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
     import { Button } from "$lib/components/ui/button/index.js";
 	import DropdownMenuContent from "$lib/components/ui/dropdown-menu/dropdown-menu-content.svelte";
+
 </script>
 
 <div class="flex flex-col gap-10">
@@ -43,9 +44,10 @@
                             {/snippet}
                         </DropdownMenu.Trigger>
                         <DropdownMenu.Content>
-                            <DropdownMenu.Item>Item 1</DropdownMenu.Item>
-                            <DropdownMenu.Item>Item 2</DropdownMenu.Item>
-                            <DropdownMenu.Item>Item 3</DropdownMenu.Item>
+                            <DropdownMenu.Item>View Details</DropdownMenu.Item>
+                            <DropdownMenu.Item>Transfer Funds</DropdownMenu.Item>
+                            <DropdownMenu.Item>View Statements</DropdownMenu.Item>
+                            <DropdownMenu.Item>Edit Account Name</DropdownMenu.Item>
                         </DropdownMenu.Content>
                     </DropdownMenu.Root>
                 </Card.Action>
@@ -78,9 +80,10 @@
                             {/snippet}
                         </DropdownMenu.Trigger>
                         <DropdownMenu.Content>
-                            <DropdownMenu.Item>Item 1</DropdownMenu.Item>
-                            <DropdownMenu.Item>Item 2</DropdownMenu.Item>
-                            <DropdownMenu.Item>Item 3</DropdownMenu.Item>
+                            <DropdownMenu.Item>View Details</DropdownMenu.Item>
+                            <DropdownMenu.Item>Transfer Funds</DropdownMenu.Item>
+                            <DropdownMenu.Item>View Statements</DropdownMenu.Item>
+                            <DropdownMenu.Item>Edit Account Name</DropdownMenu.Item>
                         </DropdownMenu.Content>
                     </DropdownMenu.Root>
                 </Card.Action>
@@ -88,6 +91,23 @@
             <Card.Content>
                 <p>RM24,500.00</p>
             </Card.Content>
+        </Card.Root>
+    </div>
+    <div class="flex flex-col gap-4 md:grid md:grid-cols-3">
+        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 transition-all duration-300 ease-in-out rounded-xl">
+            <Card.Header class="flex justify-center">
+                <Card.Title>Open New Account</Card.Title>
+            </Card.Header>
+        </Card.Root>
+        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 transition-all duration-300 ease-in-out rounded-xl">
+            <Card.Header class="flex justify-center">
+                <Card.Title>Pay Bills</Card.Title>
+            </Card.Header>
+        </Card.Root>
+        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 transition-all duration-300 ease-in-out rounded-xl">
+            <Card.Header class="flex justify-center">
+                <Card.Title>Link Overseas Account</Card.Title>
+            </Card.Header>
         </Card.Root>
     </div>
 </div>
