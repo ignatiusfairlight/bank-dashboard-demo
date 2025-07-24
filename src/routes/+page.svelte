@@ -3,8 +3,6 @@
     import * as Card from "$lib/components/ui/card/index.js";
     import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
     import { Button } from "$lib/components/ui/button/index.js";
-	import DropdownMenuContent from "$lib/components/ui/dropdown-menu/dropdown-menu-content.svelte";
-
 </script>
 
 <div class="flex flex-col gap-10">

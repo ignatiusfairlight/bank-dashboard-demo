@@ -6,6 +6,7 @@
 	import { onNavigate } from '$app/navigation';
 	import { MediaQuery } from 'svelte/reactivity';
 	import DrawerClose from '$lib/components/ui/drawer/drawer-close.svelte';
+	import { Menu } from '@lucide/svelte';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -64,7 +65,10 @@
 	<div class="ml-5 pt-5">
 		<Drawer.Root direction="top">
 			<!--Replace with three-line menu symbol-->
-			<Drawer.Trigger>Menu</Drawer.Trigger>
+			<Drawer.Trigger>
+				<span class="sr-only">Menu</span>
+				<Menu />
+			</Drawer.Trigger>
 			<Drawer.Content class="py-5 flex flex-col items-start justify-center gap-10">
 				<Drawer.Close>
 					<a href="./" class={navigationMenuTriggerStyle()}>My Accounts</a>
