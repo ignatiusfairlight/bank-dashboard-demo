@@ -64,7 +64,6 @@
 {:else}
 	<div class="ml-5 pt-5">
 		<Drawer.Root direction="top">
-			<!--Replace with three-line menu symbol-->
 			<Drawer.Trigger>
 				<span class="sr-only">Menu</span>
 				<Menu />
