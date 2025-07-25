@@ -7,6 +7,7 @@
 	import { MediaQuery } from 'svelte/reactivity';
 	import DrawerClose from '$lib/components/ui/drawer/drawer-close.svelte';
 	import { Menu } from '@lucide/svelte';
+	import { ModeWatcher } from "mode-watcher";
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -61,8 +62,7 @@
 				<NavigationMenu.Item>
 					<NavigationMenu.Link>
 						{#snippet child()}
-							<!-- svelte-ignore a11y_invalid_attribute -->
-							<a href="#" class={navigationMenuTriggerStyle()}>Settings</a>
+							<a href="settings" class={navigationMenuTriggerStyle()}>Settings</a>
 						{/snippet}
 					</NavigationMenu.Link>
 				</NavigationMenu.Item>
@@ -90,15 +90,15 @@
 					<a href="wealth" class={navigationMenuTriggerStyle()}>Wealth</a>
 				</Drawer.Close>
 				<Drawer.Close>
-					<!-- svelte-ignore a11y_invalid_attribute -->
-					<a href="#" class={navigationMenuTriggerStyle()}>Settings</a>
+					<a href="settings" class={navigationMenuTriggerStyle()}>Settings</a>
 				</Drawer.Close>
 			</Drawer.Content>
 		</Drawer.Root>
 	</div>
 {/if}
 
-<main class="p-16 min-h-[87dvh]">
+<main class="p-16 min-h-[87dvh] md:mx-20">
+	<ModeWatcher />
 	{@render children()}
 </main>
 

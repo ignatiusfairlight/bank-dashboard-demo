@@ -92,17 +92,17 @@
         </Card.Root>
     </div>
     <div class="flex flex-col gap-4 md:grid md:grid-cols-3">
-        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 transition-all duration-300 ease-in-out rounded-xl">
+        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 hover:text-black transition-all duration-300 ease-in-out rounded-xl">
             <Card.Header class="flex justify-center">
                 <Card.Title>Open New Account</Card.Title>
             </Card.Header>
         </Card.Root>
-        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 transition-all duration-300 ease-in-out rounded-xl">
+        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 hover:text-black transition-all duration-300 ease-in-out rounded-xl">
             <Card.Header class="flex justify-center">
                 <Card.Title>Pay Bills</Card.Title>
             </Card.Header>
         </Card.Root>
-        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 transition-all duration-300 ease-in-out rounded-xl">
+        <Card.Root class="shadow-sm hover:shadow-xl hover:bg-gray-50 hover:text-black transition-all duration-300 ease-in-out rounded-xl">
             <Card.Header class="flex justify-center">
                 <Card.Title>Link Overseas Account</Card.Title>
             </Card.Header>
