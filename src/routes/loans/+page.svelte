@@ -32,7 +32,7 @@
                         </Card.Title>
                     </Card.Header>
                     <Card.Content>
-                        <p>RM20,000.00</p>
+                        <p>MYR 20,000.00</p>
                     </Card.Content>
                 </Card.Root>
                 <Card.Root class="flex flex-col justify-center flex-1">
@@ -43,6 +43,16 @@
                     </Card.Header>
                     <Card.Content>
                         <p>36 Months</p>
+                    </Card.Content>
+                </Card.Root>
+                <Card.Root class="flex flex-col justify-center flex-1">
+                    <Card.Header>
+                        <Card.Title class="text-2xl">
+                            Overdue Amount
+                        </Card.Title>
+                    </Card.Header>
+                    <Card.Content>
+                        <p>MYR 00.00</p>
                     </Card.Content>
                 </Card.Root>
             </div>
@@ -73,19 +83,19 @@
         <Card.Root>
 			<Card.Header>
 				<Card.Title>Personal Loan</Card.Title>
-				<Card.Description>RM1,200.00</Card.Description>
+				<Card.Description>MYR 1,200.00</Card.Description>
 			</Card.Header>
 		</Card.Root>
         <Card.Root>
 			<Card.Header>
 				<Card.Title>House Loan</Card.Title>
-				<Card.Description>RM122,000.00</Card.Description>
+				<Card.Description>MYR 122,000.00</Card.Description>
 			</Card.Header>
 		</Card.Root>
         <Card.Root>
 			<Card.Header>
 				<Card.Title>Car Loan</Card.Title>
-				<Card.Description>RM24,000.00</Card.Description>
+				<Card.Description>MYR 24,000.00</Card.Description>
 			</Card.Header>
 		</Card.Root>
     </div>

@@ -11,7 +11,7 @@
         <Card.Root>
             <Card.Header class="flex flex-col justify-center items-center">
                 <Card.Title class="text-3xl md:text-4xl">
-                    RM 44,500.00
+                    MYR 44,500.00
                 </Card.Title>
                 <Card.Description>
                     Total Balance
@@ -51,7 +51,7 @@
                 </Card.Action>
             </Card.Header>
             <Card.Content>
-                <p>RM20,000.00</p>
+                <p>MYR 20,000.00</p>
             </Card.Content>
         </Card.Root>
         <Card.Root class="bg-amber-400">
@@ -87,7 +87,7 @@
                 </Card.Action>
             </Card.Header>
             <Card.Content>
-                <p>RM24,500.00</p>
+                <p>MYR 24,500.00</p>
             </Card.Content>
         </Card.Root>
     </div>

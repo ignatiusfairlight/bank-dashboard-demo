@@ -8,13 +8,13 @@
 		<Card.Root>
 			<Card.Header>
 				<Card.Title class="text-2xl">Total Assets</Card.Title>
-				<Card.Description>RM24,000.00</Card.Description>
+				<Card.Description>MYR 24,000.00</Card.Description>
 			</Card.Header>
 		</Card.Root>
 		<Card.Root>
 			<Card.Header>
 				<Card.Title class="text-2xl">Total Liabilities</Card.Title>
-				<Card.Description>RM24,000.00</Card.Description>
+				<Card.Description>MYR 24,000.00</Card.Description>
 			</Card.Header>
 		</Card.Root>
 	</div>
