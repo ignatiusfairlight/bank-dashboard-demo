@@ -1,4 +1,4 @@
-💼 Bank Dashboard Web App
+# 💼 Bank Dashboard Web App
 A responsive web application that replicates the interface of modern personal banking platforms. Built using SvelteKit and Tailwind CSS, the dashboard features core UI components such as account overviews, transaction summaries, and intuitive navigation.
 
 This project focuses on refining front-end development and UI/UX design skills by emulating real-world banking interfaces and user interactions. It currently includes:
